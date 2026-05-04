@@ -1,0 +1,684 @@
+{
+  "6b7afaa1-0c84-47af-b76c-cd275543b4bb": {
+    "label": "Hello ban",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello ban"
+      },
+      {
+        "role": "assistant",
+        "content": "Xin chào! Mình đây, rất vui được gặp bạn. Bạn cần tư vấn gì về dinh dưỡng không? Mình sẽ cố gắng giúp bạn hết sức. Xin chào! Tôi là Trợ lý Dinh dưỡng của TH Group. Tôi sẵn sàng giúp bạn với các câu hỏi về dinh dưỡng, sức khỏe, và gợi ý sản phẩm TH phù hợp.  Bạn cần tư vấn gì hôm nay?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "Toi dang thay chong mat"
+      },
+      {
+        "role": "assistant",
+        "content": "Vâng, tôi nghe rồi. Để tôi tìm hiểu thêm về tình trạng này của bạn để có thể tư vấn tốt nhất nhé. Bạn có thể cho tôi biết thêm chi tiết được không? Tôi hiểu bạn đang cảm thấy chóng mặt. Để tư vấn chính xác hơn, tôi cần biết thêm một số thông tin:  Tuổi của bạn là bao nhiêu? Cân nặng hiện tại? Bạn có bất kỳ tình trạng sức khỏe đặc biệt nào không, chẳng hạn như huyết áp thấp, thiếu máu, hoặc đang mang thai? Bạn ăn uống như thế nào gần đây?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "25 tuoi"
+      },
+      {
+        "role": "assistant",
+        "content": "À, bạn 25 tuổi à. Để tôi xem xét một chút cho phù hợp với tình hình của bạn nhé. Cảm ơn bạn. Để tư vấn tốt hơn, bạn có thể cho tôi biết thêm: cân nặng hiện tại, giới tính, có tình trạng sức khỏe đặc biệt nào không, và bạn ăn uống thế nào gần đây?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "70 kg, gioi tinh nam, chi co bi can thi"
+      },
+      {
+        "role": "assistant",
+        "content": "Vâng, bạn nặng 70 kg, nam giới, và hiện tại chỉ có vấn đề về cân nặng thôi. Để mình tìm hiểu kỹ hơn để có thể tư vấn cho bạn tốt nhất nhé. Chóng mặt ở nam giới tuổi hai mươi lăm có thể do thiếu máu, huyết áp thấp, hoặc dinh dưỡng không đủ. Vì bạn có bệnh cần thận, tôi khuyên bạn nên khám bác sĩ để kiểm tra hemoglobin và các chỉ số máu.  Trong khi đó, hãy đảm bảo ăn đủ protein, sắt, và vitamin C để hỗ trợ sức khỏe. Bạn có muốn tôi gợi ý sản phẩm TH phù hợp không?",
+        "thinking": "",
+        "citations": [
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/15. HƯỚNG DẪN CHẾ ĐỘ DINH DƯỠNG CHO CÁC BỆNH LÝ HỆ TIÊU HOÁ-BỘ Y TẾ.txt",
+            "title": "15. HƯỚNG DẪN CHẾ ĐỘ DINH DƯỠNG CHO CÁC BỆNH LÝ HỆ TIÊU HOÁ-BỘ Y TẾ.txt",
+            "score": 0.5524,
+            "excerpt": "Thiếu hụt dinh dưỡng thường gặp do diện tích hấp thu bề mặt ruột bị giảm dẫn đến giảm hấp thu chất dinh dưỡng và mất chất dinh dưỡng qua tiêu chảy. Thiếu máu xảy ra do mất máu qua đường tiêu hoá, do giảm hấp thu và/hoặc một phần do chế độ ăn không cung cấp đủ sắt. Bệnh Crohn và viêm loét đại trực …"
+          },
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/15. Hướng dẫn quốc gia cho ddphunucothai.txt",
+            "title": "15. Hướng dẫn quốc gia cho ddphunucothai.txt",
+            "score": 0.5026,
+            "excerpt": "Dinh dƣỡng đối với thai phụ bị thiếu máu và thiếu vi chất dinh dƣỡng 1. Dinh dƣỡng đối với thai phụ bị thiếu máu Phụ nữ có thai được coi là thiếu máu khi hàm lượng Hemoglobin trong máu thấp <11g/dl. Có nhiều nguyên nhân có thể gây thiếu máu nhưng thường gặp nhất ở phụ nữ có thai là thiếu máu thiếu …"
+          },
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/15. Huong-dan-dinh-duong-trong-dieu-tri-benh-nhan-ngoai-khoa.txt",
+            "title": "15. Huong-dan-dinh-duong-trong-dieu-tri-benh-nhan-ngoai-khoa.txt",
+            "score": 0.4759,
+            "excerpt": "Đề xuất dinh dưỡng: - Kiểm soát đường máu tốt, cung cấp đầy đủ protein, vitamin A, C, sắt kết hợp thay băng, chăm sóc vết mổ. Suy thận Trong suy thận, khoảng 43-45% glucose bị hấp thụ trong quá trình lọc máu, dẫn tới việc mất năng lượng. Đề xuất dinh dưỡng: - Hạn chế dịch truyền và các chất điện …"
+          }
+        ],
+        "disclaimer": "Please note that this information is for general reference only. It does not replace professional medical advice. Please consult a doctor or a registered dietitian before making any changes to your diet."
+      },
+      {
+        "role": "user",
+        "content": "Toi cung dang dau da day"
+      },
+      {
+        "role": "assistant",
+        "content": "Được rồi, mình sẽ tìm hiểu kỹ về vấn đề này cho bạn. Chờ mình một chút nhé, mình đang xem xét những thông tin liên quan để có thể giúp bạn tốt nhất. Hiểu rồi. Bạn đang chóng mặt và đau dạ dày. Đây có thể liên quan đến tiêu hóa hoặc dinh dưỡng không cân bằng.  Tôi khuyên bạn nên gặp bác sĩ để kiểm tra kỹ. Trong khi đó, hãy ăn nhẹ, tránh thực phẩm cay nóng, và uống đủ nước. Sản phẩm lên men như sữa chua có thể hỗ trợ tiêu hóa. Bạn có muốn tôi gợi ý sản phẩm TH không?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "Ma TH co gi the"
+      },
+      {
+        "role": "assistant",
+        "content": "Vâng, bạn muốn biết TH có những gì đặc biệt về dinh dưỡng phải không? Để mình tìm hiểu kỹ hơn để giải thích cho bạn rõ nhất nhé. TH có rất nhiều sản phẩm sữa tươi, sữa chua, sữa hạt, sữa yến mạch, và sữa lên men. Vì bạn đang chóng mặt và đau dạ dày, tôi gợi ý sữa chua lên men. Nó có lợi khuẩn tốt cho tiêu hóa. Bạn có muốn biết chi tiết hơn không?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "co sua chua nao vi dau ko "
+      },
+      {
+        "role": "assistant",
+        "content": "Vâng, bạn đang tìm sữa chua nào có vị dâu mà không có đường phải không? Để mình tìm hiểu xem chúng tôi có những lựa chọn nào phù hợp cho bạn nhé. Có. TH có sữa chua vị tự nhiên không có hương vị thêm. Sữa Chua Vị Tự Nhiên TH true YOGURT là lựa chọn tốt cho bạn. Nó không có đường thêm nhiều, chỉ có lactose tự nhiên. Sản phẩm có lợi khuẩn tốt cho tiêu hóa. Uống hai đến ba hộp mỗi ngày sẽ hỗ trợ sức khỏe.",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "dau da day an dc sua chua ko"
+      },
+      {
+        "role": "assistant",
+        "content": "Vâng, bạn đang hỏi về việc dùng sữa chua để hỗ trợ tiêu hóa phải không? Để mình tìm hiểu kỹ hơn về tình huống cụ thể của bạn nhé. Có, bạn có thể ăn sữa chua khi đau dạ dày. Sữa chua có lợi khuẩn giúp cân bằng hệ tiêu hóa và bảo vệ dạ dày. Lactose trong sữa chua đã được lên men thành acid lactic, dễ tiêu hóa hơn.  Tuy nhiên, không nên ăn khi đói vì acid cao trong dạ dày có thể làm chết lợi khuẩn. Ăn sau bữa ăn nhẹ sẽ tốt hơn. Bạn vẫn nên gặp bác sĩ để kiểm tra nguyên nhân đau dạ dày.",
+        "thinking": "",
+        "citations": [
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/15. Hướng dẫn quốc gia cho ddphunucothai.txt",
+            "title": "15. Hướng dẫn quốc gia cho ddphunucothai.txt",
+            "score": 0.4676,
+            "excerpt": "chua 100      Cà rốt 50   Sữa chua 100                20g Sữa dành cho bệnh nhân đái tháo đƣờng 200ml Sữa dành cho bệnh nhân đái tháo đƣờng 200ml Sữa dành cho bệnh nhân đái tháo đƣờng 200ml Sữa dành cho bệnh nhân đái tháo đƣờng 200ml  53   Thứ 2 & thứ 5 Thứ 3 & thứ 6 Thứ 4 và thứ 7 Chủ nhật Bữa …"
+          },
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/15. HƯỚNG DẪN CHẾ ĐỘ DINH DƯỠNG CHO CÁC BỆNH LÝ HỆ TIÊU HOÁ-BỘ Y TẾ.txt",
+            "title": "15. HƯỚNG DẪN CHẾ ĐỘ DINH DƯỠNG CHO CÁC BỆNH LÝ HỆ TIÊU HOÁ-BỘ Y TẾ.txt",
+            "score": 0.4406,
+            "excerpt": "trước mỗi bữa ăn; trào ngược dạ dày thực quản; dịch tồn lưu dạ dày ≥250mL; tiêu chảy; táo bón) hoặc được dùng bằng thức ăn nghèo năng lượng (nước đường, cháo đường) do suy chức năng tiêu hóa. - Kiểm soát đường huyết nên từ 150 – 180 mg/dL, mục tiêu cao hơn vẫn có thể được chấp nhận trong một số …"
+          },
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/15. Huong dan che do an benh vien - BYT.txt",
+            "title": "15. Huong dan che do an benh vien - BYT.txt",
+            "score": 0.4365,
+            "excerpt": "Có thể ăn cháo, nước quả chín, sữa công thức tùy theo tháng tuổi + Trẻ lớn: 6-8 bữa/ngày (cháo, nước quả chín, sữa, súp). Nên cho ít một, bữa < 6 tháng E (Kcal): 500- 620 P (g): 10- 15 L(g): 20- 33 G(g): 50- 70 1PT3-X 7-12 tháng E (Kcal): 500- 800 P (g): 15- 20 L(g): 18- 30 G(g): 50- 120 2PT3-X 1-3 …"
+          }
+        ],
+        "disclaimer": "Please note that this information is for general reference only. It does not replace professional medical advice. Please consult a doctor or a registered dietitian before making any changes to your diet."
+      },
+      {
+        "role": "user",
+        "content": "Ai sang lap TH "
+      },
+      {
+        "role": "assistant",
+        "content": "Vâng, bạn muốn tìm hiểu về sản phẩm Ai Sang Lạp của TH à? Để mình xem thông tin chi tiết về nó để tư vấn cho bạn tốt nhất nhé. TH được sáng lập bởi bà Thái Hương, một nữ doanh nhân tài ba. Bà xây dựng TH dựa trên giá trị vì sức khỏe cộng đồng. Năm hai nghìn tám, bà khởi động dự án chăn nuôi bò sữa và chế biến sữa. Bà được công nhận là người tiên phong nông nghiệp sạch, hữu cơ ở Việt Nam. Năm hai nghìn hai mươi, bà được phong tặng danh hiệu Anh hùng Lao động.",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "  Tôi tự nhiên bị nhức đầu, nên làm gì"
+      },
+      {
+        "role": "assistant",
+        "content": "Nhức đầu thường xuyên à? Để mình tìm hiểu thêm về tình hình của bạn một chút, rồi mình sẽ giúp bạn tìm cách cải thiện nhé. Nhức đầu có thể do thiếu nước, thiếu ngủ, căng thẳng, hoặc dinh dưỡng không cân bằng. Hãy uống đủ nước mỗi ngày khoảng hai lít rưỡi. Ăn đủ protein, vitamin B, và khoáng chất như sắt, magiê.  Sữa tươi TH cung cấp protein, canxi, và vitamin B tốt cho sức khỏe. Nếu nhức đầu kéo dài, hãy gặp bác sĩ để kiểm tra. Bạn có cần gợi ý sản phẩm TH không?",
+        "thinking": "",
+        "citations": [
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/1. BẢNG NHU CẦU DD VN_2016.txt",
+            "title": "1. BẢNG NHU CẦU DD VN_2016.txt",
+            "score": 0.5074,
+            "excerpt": "3                | | 7 - 12 tháng | 42            | 1300         | 45             | 2,6            | 3                |  ᵃ AI  - 164 -  Nhu cầu dinh dưỡng - khuyến nghị cho người Việt Nam  Phụ lục 6. Nhu cầu khuyến nghị vitamin  | Nhóm tuổi | Vitamin B₁ (mg/ngày) | Vitamin B₂ (mg/ngày) | Niacin …"
+          }
+        ],
+        "disclaimer": "Lưu ý rằng thông tin này chỉ mang tính chất tham khảo. Thông tin này không thay thế cho lời khuyên y tế chuyên nghiệp. Vui lòng tham khảo ý kiến bác sĩ hoặc chuyên gia dinh dưỡng trước khi thay đổi chế độ ăn uống."
+      },
+      {
+        "role": "user",
+        "content": " Có"
+      },
+      {
+        "role": "assistant",
+        "content": "Được rồi, để tôi kiểm tra thông tin này cho bạn. Tôi sẽ tìm hiểu kỹ về điều bạn muốn biết. Tôi gợi ý ba sản phẩm TH tốt cho bạn. Sữa Chua Vị Tự Nhiên TH true YOGURT không có đường thêm, chỉ lactose tự nhiên. Sữa Tươi Ít Đường TH true MILK cung cấp protein, canxi, vitamin B tốt cho não. Sữa Uống Lên Men Ít Đường TH true YOGURT PROBIOTICS có lợi khuẩn cao, hỗ trợ tiêu hóa và miễn dịch. Uống hai đến ba hộp mỗi ngày sẽ giúp bạn.",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": " Ko uống đc lactose"
+      },
+      {
+        "role": "assistant",
+        "content": "Vậy là bạn không uống được lactose à. Để mình tìm hiểu xem chúng ta có những sản phẩm phù hợp nào cho bạn nhé. Bạn không uống được lactose, tôi gợi ý ba sản phẩm TH không lactose. Sữa Tươi Tiệt Trùng Vị Tự Nhiên TH true MILK HILO không lactose, bổ sung canxi cao, dễ tiêu hóa. Sữa Yến Mạch Tự Nhiên TH true OAT không lactose, có chất xơ tốt cho tiêu hóa, omega sáu tốt cho tim mạch. Sữa Tươi Bổ sung Ngũ Cốc TH true MILK ít lactose dưới một phẩy năm gam trên một trăm mili lít. Uống hai đến ba hộp mỗi ngày sẽ tốt cho bạn.",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "Thế còn con gái tôi có gợi ý gì ko "
+      },
+      {
+        "role": "assistant",
+        "content": "Được, để tôi tìm hiểu thêm về con gái bạn nhé. Bạn có thể cho tôi biết tuổi của em ấy và em ấy có nhu cầu dinh dưỡng gì đặc biệt không? Để gợi ý chính xác cho con gái bạn, tôi cần biết tuổi của em ấy. Con gái bạn bao nhiêu tuổi? Em ấy có tình trạng sức khỏe đặc biệt nào không?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": " 10 tuổi, 40kg"
+      },
+      {
+        "role": "assistant",
+        "content": "Vậy là con em 10 tuổi, nặng 40kg à. Để em xem xét kỹ cho phù hợp với tình trạng của bé nhé. Tôi gợi ý ba sản phẩm TH cho con gái bạn mười tuổi. Sữa Tươi Tiệt Trùng Vị Tự Nhiên TH true MILK HILO không lactose, bổ sung canxi cao giúp xương chắc khỏe. Sữa Yến Mạch Tự Nhiên TH true OAT không lactose, có chất xơ tốt cho tiêu hóa và năng lượng. Sữa Uống Lên Men TH true YOGURT PROBIOTICS không lactose, có lợi khuẩn giúp miễn dịch mạnh. Uống một đến hai hộp mỗi ngày sẽ tốt cho em ấy.",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": " Có sữa nào khác ko"
+      },
+      {
+        "role": "assistant",
+        "content": "Vâng, bạn muốn tìm hiểu thêm về các loại sữa khác à? Để mình xem xét các lựa chọn khác nhau mà chúng tôi có sẵn cho bạn nhé. Hiện tại TH chưa có sản phẩm không lactose khác dành riêng cho trẻ em mười tuổi. Ba sản phẩm tôi gợi ý trên là những lựa chọn tốt nhất cho con gái bạn. Nếu em ấy không uống được lactose, ba sản phẩm đó đều phù hợp. Bạn còn cần hỗ trợ gì nữa không?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": " Uống đc lactose"
+      },
+      {
+        "role": "assistant",
+        "content": "Vâng, bạn muốn biết về sản phẩm có lactose hay không lactose. Để mình tìm hiểu thông tin chi tiết cho bạn nhé. Tuyệt vời. Con gái bạn uống được lactose, tôi gợi ý năm sản phẩm TH cho em ấy. Sữa Tươi Vị Kem Vanilla TH true MILK TOPKID có DHA tốt cho não, canxi chắc xương. Sữa Chua Uống Phomat TH true YOGURT TOPKID có lợi khuẩn tốt cho tiêu hóa. Sữa Chua Thanh Trùng Hương Vanilla TH true YOGURT TOPKID có canxi cao. Thức Uống Sữa Lúa Mạch TH true CHOCOMALT MISTORI có năng lượng tốt. Thức Uống Sữa Trái Cây TH true JUICE milk MISTORI có vitamin tự nhiên. Uống hai đến ba hộp mỗi ngày sẽ tốt cho em ấy.",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": " oke, cảm ơn, quay lại về tôi, tôi sắp chạy 50km"
+      },
+      {
+        "role": "assistant",
+        "content": "Được, tôi hiểu rồi. Bạn sắp chạy 50km, đó là một cuộc chạy rất dài. Để mình tìm hiểu xem chúng ta có thể hỗ trợ bạn như thế nào nhé. Chạy năm mươi kilômét cần năng lượng rất cao. Bạn cần protein để phục hồi cơ bắp, carbohydrate để cung cấp năng lượng, và canxi để xương chắc khỏe. Trước chạy, uống sữa tươi có đường để có năng lượng. Sau chạy, uống sữa chua lên men hoặc sữa tươi để phục hồi cơ bắp nhanh. Bạn muốn tôi gợi ý sản phẩm TH phù hợp không?",
+        "thinking": "",
+        "citations": [
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/2..Protein and acid amin requirement in humam nutrition FAO.txt",
+            "title": "2..Protein and acid amin requirement in humam nutrition FAO.txt",
+            "score": 0.427,
+            "excerpt": "The need for indispensible amino acids: the concept of the anabolic drive. Diabetes/Metabolism Reviews, 1989, 5:191–212. 34. Yahya ZAH, Millward DJ. Dietary protein and the regulation of long bone and muscle growth in the rat. Clinical Science, 1994, 87:213–224. 192  35. Kabir I et al. Effects of a …"
+          }
+        ],
+        "disclaimer": "Lưu ý rằng thông tin này chỉ mang tính chất tham khảo. Thông tin này không thay thế cho lời khuyên y tế chuyên nghiệp. Vui lòng tham khảo ý kiến bác sĩ hoặc chuyên gia dinh dưỡng trước khi thay đổi chế độ ăn uống."
+      },
+      {
+        "role": "user",
+        "content": " vâng"
+      },
+      {
+        "role": "assistant",
+        "content": "Vâng, tôi đây. Mình sẽ giúp bạn tìm hiểu thêm về những gì bạn cần. Chỉ cần cho mình biết chi tiết một chút, mình sẽ tư vấn cho bạn ngay. Tuyệt vời. Tôi gợi ý ba sản phẩm TH cho bạn chạy năm mươi kilômét. Sữa Tươi Tiệt Trùng Có Đường TH true MILK cung cấp năng lượng cao, protein phục hồi cơ bắp, canxi chắc xương. Uống trước chạy để có năng lượng, sau chạy để phục hồi nhanh. Sữa Tươi Tiệt Trùng Sô Cô La TH true MILK cũng tốt, có carbohydrate cao, protein tốt. Uống hai đến ba hộp mỗi ngày sẽ giúp bạn khỏe mạnh.",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": " Tôi thì ko uống đc lactose"
+      },
+      {
+        "role": "assistant",
+        "content": "Vâng, bạn không uống được lactose à. Để mình tìm hiểu thêm về tình hình của bạn và xem chúng ta có những lựa chọn phù hợp nào nhé. Tuyệt vời. Tôi gợi ý ba sản phẩm TH không lactose cho bạn chạy năm mươi kilômét. Sữa Tươi Tiệt Trùng Vị Tự Nhiên TH true MILK HILO không lactose, protein cao, canxi cao giúp phục hồi cơ bắp. Sữa Yến Mạch Tự Nhiên TH true OAT không lactose, có chất xơ, omega sáu tốt cho tim mạch. Sữa Tươi Bổ sung Ngũ Cốc TH true MILK không lactose, ít đường, năng lượng cao. Uống hai đến ba hộp mỗi ngày sẽ giúp bạn khỏe mạnh.",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      }
+    ],
+    "model": "haiku",
+    "created_at": "2026-05-03T13:35:06.906457+00:00"
+  },
+  "14a3b050-b245-43f4-ade5-0492da94d199": {
+    "label": "Hello, ban la ai",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello, ban la ai"
+      },
+      {
+        "role": "assistant",
+        "content": "Xin chào bạn! Mình rất vui được giúp đỡ bạn hôm nay. Bạn muốn tìm hiểu về dinh dưỡng hay có câu hỏi gì về chế độ ăn uống phải không? Mình sẽ lắng nghe kỹ và đưa ra những lời khuyên phù hợp nhất cho bạn đấy. Xin chào! Tôi là Trợ lý Dinh dưỡng của TH Group. Tôi giúp bạn với các câu hỏi về dinh dưỡng, hướng dẫn ăn uống lành mạnh, và gợi ý sản phẩm TH phù hợp với nhu cầu của bạn. Bạn cần tư vấn gì hôm nay?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "Toi dang bi dau da day"
+      },
+      {
+        "role": "assistant",
+        "content": "À bạn đang bị đau dạ dày à. Điều này khá phổ biến nhưng chúng ta cần tìm hiểu kỹ hơn để giúp bạn. Để tôi xem xét các lựa chọn dinh dưỡng tốt nhất cho tình trạng của bạn nhé. Tôi sẽ kiểm tra và đưa ra những gợi ý phù hợp để giảm bớt triệu chứng và hỗ trợ sức Tôi hiểu bạn đang gặp vấn đề về đau dạ dày. Để tư vấn chính xác hơn, tôi cần biết thêm một số thông tin. Bạn có thể cho tôi biết tuổi, cân nặng, giới tính, và liệu bạn có bất kỳ tình trạng sức khỏe đặc biệt nào không? Ngoài ra, đau dạ dày của bạn kéo dài bao lâu rồi?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "25 tuoi, 70kg"
+      },
+      {
+        "role": "assistant",
+        "content": "Được rồi, bạn 25 tuổi, nặng 70kg. Thông tin này rất hữu ích để tôi có thể đưa ra những lời khuyên dinh dưỡng phù hợp nhất cho bạn. Để tôi xem xét kỹ lưỡng tình trạng của bạn và tìm ra phương án tốt nhất cho nhu cầu cụ thể của bạn nhé. Cảm ơn bạn. Trước tiên, tôi cần nhấn mạnh rằng đau dạ dày cần được kiểm tra bởi bác sĩ để chẩn đoán chính xác. Tôi có thể giúp bạn về dinh dưỡng hỗ trợ. Bạn có bị dị ứng lactose hoặc không dung nạp lactose không? Hoặc bạn đang uống sữa gì hiện tại?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "Ko "
+      },
+      {
+        "role": "assistant",
+        "content": "I appreciate you reaching out, but I'm not quite sure what you're asking me about. Could you tell me a bit more about what's on your mind? Whether it's about your nutrition, what you should be eating, or maybe some health concerns you have, I'm here to help you find the best advice tailored just for you. Just give me a little more detail and I'll look into everything for you right away. Tôi sẽ tìm kiếm thông tin về dinh dưỡng hỗ trợ cho người có vấn đề về dạ dày.Khi bị đau dạ dày, bạn nên ăn nhẹ và thường xuyên. Chọn thực phẩm dễ tiêu hóa như cơm mềm, cháo, rau luộc. Tránh thực phẩm cay, béo, và caffeine. Sữa có probiotic có thể hỗ trợ tiêu hóa. Tuy nhiên, bạn cần gặp bác sĩ để chẩn đoán nguyên nhân đau. Bạn muốn tôi gợi ý sản phẩm TH hỗ trợ tiêu hóa không?",
+        "thinking": "",
+        "citations": [
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/15. Huong-dan-dinh-duong-trong-dieu-tri-benh-nhan-ngoai-khoa.txt",
+            "title": "15. Huong-dan-dinh-duong-trong-dieu-tri-benh-nhan-ngoai-khoa.txt",
+            "score": 0.5094,
+            "excerpt": "Dinh dưỡng qua đường tiêu hóa* sớm không những dung nạp tốt mà còn giúp duy trì lớp biểu mô đường tiêu hóa, kích thích ruột thích nghi và giảm biến chứng tĩnh mạch, cải thiện tình trạng tưới máu, hạn chế biến chứng nhiễm khuẩn thúc đẩy lành vết thương, giảm tình trạng sụt cân và thời gian nằm viện. …"
+          },
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/6. QĐ 1294 -BYT - Kế hoạc hành động thực hiện CLQG dinh dưỡng 2025.txt",
+            "title": "6. QĐ 1294 -BYT - Kế hoạc hành động thực hiện CLQG dinh dưỡng 2025.txt",
+            "score": 0.5001,
+            "excerpt": "Đề án dinh dưỡng hợp lý nhằm chăm sóc và nâng cao sức khỏe nhân dân Xây dựng các khuyến nghị, hướng dẫn về chế độ ăn, khẩu phần phù hợp với từng đối tượng, vùng miền. Thử nghiệm, giáo dục truyền thông, phổ biến, hướng dẫn, đánh giá hiệu quả. 2022-2023 Viện Dinh dưỡng Cục Y tế dự phòng Vụ Sức khỏe …"
+          },
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/15. Hướng dẫn quốc gia cho ddphunucothai.txt",
+            "title": "15. Hướng dẫn quốc gia cho ddphunucothai.txt",
+            "score": 0.4979,
+            "excerpt": "Dinh dưỡng bảo đảm sức khỏe cho mẹ: Mặc dù nguồn dinh dưỡng dự trữ trong thời gian mang thai vẫn chưa phải tiêu thụ hết nhưng đã mất khá nhiều vì mất máu khi sinh đẻ, sản xuất sữa non trong những tháng cuối của kỳ thai và tiếp đến sữa sau khi sinh. Vì vậy chú ý đến dinh dưỡng cho bà mẹ trong thời …"
+          }
+        ],
+        "disclaimer": "Please note that this information is for general reference only. It does not replace professional medical advice. Please consult a doctor or a registered dietitian before making any changes to your diet."
+      },
+      {
+        "role": "user",
+        "content": " tôi không uống sữa"
+      },
+      {
+        "role": "assistant",
+        "content": "Được rồi, tôi hiểu bạn không uống sữa. Điều này rất quan trọng để tôi có thể đưa ra những gợi ý dinh dưỡng phù hợp nhất cho bạn. Tôi sẽ tìm hiểu xem bạn có thể lấy canxi và các chất dinh dưỡng từ những nguồn khác nào, và cũng sẽ kiểm tra xem liệu có lý do gì khiến bạn không uống s Hiểu rồi. Vì bạn không uống sữa, bạn có thể bổ sung canxi từ các nguồn khác như cá, tôm, rau lá xanh, hoặc đậu. Tuy nhiên, để xử lý đau dạ dày hiệu quả, bạn nên tham khảo ý kiến bác sĩ sớm. Họ sẽ giúp xác định nguyên nhân và đưa ra hướng điều trị phù hợp. Ngoài phần này ra, tôi còn có thể hỗ trợ gì khác không?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": " có sữa gì nhiều protein ?"
+      },
+      {
+        "role": "assistant",
+        "content": "Aha, bạn đang tìm loại sữa nào giàu protein phải không? Để mình kiểm tra thông tin chi tiết về các sản phẩm sữa của chúng tôi nhé. Mình sẽ tìm ra những loại sữa có hàm lượng protein cao nhất và phù hợp nhất với nhu cầu của bạn. Sữa bò thường chứa khoảng ba gam protein trên một trăm mili lít. Sữa từ các loài khác như sữa cừu hoặc sữa trâu có protein cao hơn. Bạn muốn tôi gợi ý các sản phẩm sữa TH có protein cao phù hợp với bạn không?",
+        "thinking": "",
+        "citations": [
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/4. FAO_khuyến nghị về acid béo.txt",
+            "title": "4. FAO_khuyến nghị về acid béo.txt",
+            "score": 0.4756,
+            "excerpt": "The total fat content of sheep milk (7.0 g/100 g), Indian buffalo milk (6.9 g/100 g) and goat milk (4.1 g/100 g) are higher than that of cow milk (3.3 g/100 g) (USDA, 2008). The SFA that predominates in milk fat is palmitic acid and the short chain SFA butyric acid (C4:0) and caproic acid (C6:0) …"
+          },
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/2..Protein and acid amin requirement in humam nutrition FAO.txt",
+            "title": "2..Protein and acid amin requirement in humam nutrition FAO.txt",
+            "score": 0.4737,
+            "excerpt": "In one study, 304 preterm infants were given diets containing either 3.0–3.6 g/kg per day or 6.0–7.2 g/kg per day of cows’ milk protein (85). These intakes are 1.5–1.8 and 3.0–3.6 times the estimated milk protein intake of a breastfed newborn (86). The higher protein intake resulted in more fever, …"
+          }
+        ],
+        "disclaimer": "Lưu ý rằng thông tin này chỉ mang tính chất tham khảo. Thông tin này không thay thế cho lời khuyên y tế chuyên nghiệp. Vui lòng tham khảo ý kiến bác sĩ hoặc chuyên gia dinh dưỡng trước khi thay đổi chế độ ăn uống."
+      },
+      {
+        "role": "user",
+        "content": " Vâng"
+      },
+      {
+        "role": "assistant",
+        "content": "Vâng, tôi đã hiểu. Để tôi giúp bạn tìm ra những lời khuyên dinh dưỡng phù hợp nhất với nhu cầu của bạn nhé. Tôi sẽ xem xét kỹ lưỡng và đưa ra những gợi ý cụ thể dựa trên tình hình sức khỏe và mục tiêu của bạn. TH true MILK Nguyên Chất có ba phẩy một gam protein trên một trăm mili lít, cao nhất trong dòng sản phẩm. Sữa này hoàn toàn từ sữa tươi trang trại TH, không chất bảo quản. Bạn có thể uống lạnh, ngon và bổ dưỡng. Ngoài ra, TH true MILK Sô Cô La cũng có ba gam protein nếu bạn thích hương vị. Bạn muốn biết thêm chi tiết nào không?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "Tôi hay mệt, có nên bổ sung vitamin không?"
+      },
+      {
+        "role": "assistant",
+        "content": "Mệt mỏi là tín hiệu cơ thể đang cần chú ý đấy. Để mình tìm hiểu kỹ hơn về tình trạng của bạn nhé, vì việc bổ sung vitamin phải phù hợp với nhu cầu thực tế của từng người. Mình sẽ xem xét các yếu tố và đưa ra gợi ý dinh dưỡng tốt nhất cho bạn. Mệt mỏi có nhiều nguyên nhân. Bạn nên kiểm tra xem có thiếu sắt, vitamin B12, hoặc magiê không. Ăn đủ protein, carbohydrate phức tạp, và rau quả tươi giúp tăng năng lượng. Nếu mệt kéo dài, hãy gặp bác sĩ để xét nghiệm. Bổ sung vitamin chỉ nên dùng theo hướng dẫn của bác sĩ. Bạn có muốn biết sữa nào hỗ trợ năng lượng không?",
+        "thinking": "",
+        "citations": [
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/15. Huong-dan-DD-trong-DT-ung-thu- Hội UT và vietSPEN.txt",
+            "title": "15. Huong-dan-DD-trong-DT-ung-thu- Hội UT và vietSPEN.txt",
+            "score": 0.5052,
+            "excerpt": ". \t- Ưu tiên nguồn carbohydrate phức tạp (như ngũ cốc nguyên hạt, khoai lang, rau củ) và hạn chế đường tinh luyện. 5.6.5. Nhu cầu vitamin và khoáng chất \t- Tăng cường tiêu thụ thực phẩm giàu vitamin và khoáng chất, đặc biệt là:  + Vitamin C (cam, bưởi, kiwi) để tăng cường sức đề kháng  + Vitamin D …"
+          },
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/15. Huong-dan-dinh-duong-trong-dieu-tri-benh-nhan-ngoai-khoa.txt",
+            "title": "15. Huong-dan-dinh-duong-trong-dieu-tri-benh-nhan-ngoai-khoa.txt",
+            "score": 0.4691,
+            "excerpt": "Khuyến nghị vitamin và khoáng chất Vi chất Liều lượng Vitamin B12 1.000 mcg/ tháng (tiêm) Vitamin A 25.000 UI/ ngày Vitamin D 10.000 UI/ ngày Vitamin E 400 UI/ ngày Canxi 1-2g x 3l/ ngày Magie gluconate 1-3g x 3l/ ngày Magie lactate 8-16mg x 3l/ ngày Phosphat 250mg x 3l/ ngày Cu 3-6mg/ ngày Selen …"
+          },
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/1. BẢNG NHU CẦU DD VN_2016.txt",
+            "title": "1. BẢNG NHU CẦU DD VN_2016.txt",
+            "score": 0.4655,
+            "excerpt": "Năng lượng và 3 chất sinh năng lượng: Protein/chất đạm và các amino acid thiết yếu, Lipid/chất béo và các acid béo, Glucid/chất bột đường,  2. Các chất khoáng gồm: Các chất khoáng đa lượng: calci, phospho, magiê. Các chất khoáng vi lượng: sắt, kẽm, iốt, selen, đồng, crom, mangan, flour  - 27 -  Nhu …"
+          },
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/15. Hướng dẫn quốc gia cho ddphunucothai.txt",
+            "title": "15. Hướng dẫn quốc gia cho ddphunucothai.txt",
+            "score": 0.4633,
+            "excerpt": "mỏi hơn. - Nên tạo thói quen ăn uống tại nhà, tự nấu ăn, hạn chế đồ ăn nhanh, đồ ăn bày bán sẵn để đảm bảo an toàn thực phẩm, hạn chế các chất phụ gia độc hại, phẩm màu tổng hợp, các chất bảo quản thực phẩm. - Nên chế biến những món luộc, hạn chế các món nướng cháy, các loại chiên xào nhiều dầu mỡ, …"
+          }
+        ],
+        "disclaimer": "Lưu ý rằng thông tin này chỉ mang tính chất tham khảo. Thông tin này không thay thế cho lời khuyên y tế chuyên nghiệp. Vui lòng tham khảo ý kiến bác sĩ hoặc chuyên gia dinh dưỡng trước khi thay đổi chế độ ăn uống."
+      },
+      {
+        "role": "user",
+        "content": "  Sắp đi chạy 20km"
+      },
+      {
+        "role": "assistant",
+        "content": "Ồ, chạy 20km là quãng đường khá xa đấy! Để tôi giúp bạn lên kế hoạch dinh dưỡng phù hợp nhất cho cuộc chạy này nhé. Tôi sẽ xem xét cách cung cấp năng lượng tốt nhất cho bạn trước, trong và sau khi chạy để bạn có thể hoàn thành tốt nhất. Chạy hai mươi kilômét cần chuẩn bị kỹ. Trước chạy ba đến bốn giờ, ăn carbohydrate và protein nhẹ như cơm, trứng, hoặc bánh mì. Uống đủ nước. Sau chạy, bổ sung protein và carbohydrate trong vòng ba mươi phút để phục hồi cơ bắp. Sữa có protein cao rất tốt cho phục hồi. Bạn muốn tôi gợi ý sản phẩm TH phục hồi sau tập luyện không?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": " vâng"
+      },
+      {
+        "role": "assistant",
+        "content": "Vâng, tôi đã hiểu rồi. Để tôi tìm hiểu kỹ hơn về nhu cầu dinh dưỡng của bạn nhé. Tôi sẽ kiểm tra các thông tin chi tiết và đưa ra những lời khuyên phù hợp nhất cho sức khỏe của bạn. TH true MILK Nguyên Chất tốt nhất cho phục hồi. Nó có ba phẩy một gam protein trên một trăm mili lít, giúp xây dựng cơ bắp. Uống ngay sau chạy trong vòng ba mươi phút. TH true MILK Sô Cô La cũng tốt, có ba gam protein và carbohydrate từ sô cô la. Cả hai đều không có chất bảo quản. Chúc bạn chạy thành công!",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": " Tôi ko uống lactose"
+      },
+      {
+        "role": "assistant",
+        "content": "Vâng, tôi hiểu rồi. Bạn không uống được lactose, đúng không? Để tôi tìm hiểu kỹ hơn về tình trạng này của bạn nhé. Tôi sẽ kiểm tra các sản phẩm và lựa chọn dinh dưỡng phù hợp nhất cho bạn, những thứ không chứa lactose và vẫn đảm bảo đầy đủ chất dinh dưỡng cần thiết. Hiểu rồi. Bạn không dung nạp lactose. TH có sản phẩm sữa không lactose phù hợp với bạn. Để gợi ý chính xác, bạn có thể cho tôi biết tuổi, cân nặng, giới tính, và tình trạng sức khỏe đặc biệt nếu có không? Điều này giúp tôi tìm sản phẩm tốt nhất cho phục hồi sau chạy của bạn.",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": " 25 tuổi, 70kg, nam"
+      },
+      {
+        "role": "assistant",
+        "content": "Được rồi, tôi hiểu rồi. Bạn 25 tuổi, nặng 70kg và là nam giới. Thông tin này rất hữu ích để tôi có thể đưa ra những lời khuyên dinh dưỡng phù hợp nhất cho bạn. Hãy cho tôi biết bạn đang có nhu cầu gì, là muốn tăng cân, giảm cân hay cải thiện sức khỏe nói chung nhé. Tôi s Tuyệt vời. Với tuổi hai mươi lăm, cân nặng bảy mươi kilôgam, nam giới, bạn cần protein cao để phục hồi sau chạy. TH true MILK HILO không lactose, có ba phẩy một gam protein trên một trăm mili lít. Nó giảm chất béo nhưng giữ đủ dinh dưỡng. Uống ngay sau chạy để phục hồi tốt. Sản phẩm này hoàn toàn từ sữa trang trại TH, không bảo quản. Bạn có câu hỏi gì khác không?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": " TH của ai ?"
+      },
+      {
+        "role": "assistant",
+        "content": "À, bạn đang hỏi về TH của ai à. Để tôi hiểu rõ hơn nhé, bạn đang muốn biết về các sản phẩm dinh dưỡng của TH Group hay bạn đang quan tâm đến một sản phẩm cụ thể nào đó? Tôi sẽ giúp bạn tìm ra thông tin chi tiết và những lời khuyên dinh dưỡng phù hợp nhất cho nhu cầu của bạn. TH Group là công ty nông nghiệp và sữa hàng đầu Việt Nam. Công ty được thành lập bởi bà Thái Hương, người sáng lập với tầm nhìn mang sức khỏe đến mọi gia đình. TH phát triển từ trang trại đến sản phẩm sữa chất lượng cao. Công ty cam kết sử dụng nguyên liệu tự nhiên, không chất bảo quản. Bạn muốn biết thêm về lịch sử TH không?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "Alo, kệ tên các loại cái.\n"
+      },
+      {
+        "role": "assistant",
+        "content": "Vâng, tôi sẽ giúp bạn liệt kê các loại cái khác nhau nhé. Để tôi tìm hiểu thông tin chi tiết về các loại cái này, từ đặc điểm dinh dưỡng đến lợi ích sức khỏe của chúng. Tôi sẽ chuẩn bị thông tin đầy đủ để bạn có thể lựa chọn phù hợp nhất với nhu cầu của mình. Vâng, tôi hiểu. Bạn muốn tôi chỉ gợi ý sản phẩm không lactose phù hợp cho phục hồi sau chạy mà không cần liệt kê tên chi tiết. Để tìm đúng sản phẩm, tôi cần xem lại danh sách TH có sẵn. Bạn cho tôi một chút thời gian nhé.Bạn có ba lựa chọn không lactose. Sản phẩm thứ nhất có ba gam protein, tốt cho phục hồi cơ bắp sau chạy. Sản phẩm thứ hai cũng ba gam protein, ít chất béo, bổ sung canxi. Sản phẩm thứ ba từ thực vật, không lactose, nhưng protein thấp hơn. Để phục hồi tốt sau chạy hai mươi kilômét, hai sản phẩm đầu phù hợp hơn. Bạn chọn cái nào?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      }
+    ],
+    "model": "haiku",
+    "created_at": "2026-05-03T14:31:47.211930+00:00"
+  },
+  "e61708fe-e05c-4a25-8f43-c1110be5535f": {
+    "label": "Alo, kệ tên các loại cái.\n\n",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Alo, kệ tên các loại cái.\n\n"
+      },
+      {
+        "role": "assistant",
+        "content": "Vâng, tôi hiểu rồi. Bạn muốn biết về các loại cái và thông tin dinh dưỡng liên quan phải không? Để tôi tìm hiểu kỹ và cung cấp cho bạn những thông tin chi tiết nhất về các loại cái mà chúng tôi có. Tôi sẽ kiểm tra ngay để giúp bạn chọn lựa phù hợp nhất với nhu cầu của mình. Xin chào! Tôi là Trợ lý Dinh dưỡng của TH Group. Tôi sẵn sàng giúp bạn về các câu hỏi dinh dưỡng, hướng dẫn ăn uống lành mạnh, và gợi ý sản phẩm TH phù hợp.  Bạn muốn tìm hiểu về điều gì? Ví dụ: lợi ích sức khỏe của một loại thực phẩm, cách chọn sản phẩm sữa, hay tư vấn dinh dưỡng cá nhân?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      }
+    ],
+    "model": "haiku",
+    "created_at": "2026-05-03T14:42:01.101640+00:00"
+  },
+  "ead8b865-2060-44ea-a435-6ce8a115ec5a": {
+    "label": "Chạy 21km marathon, sắp 2 thì như vậy nê…",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Chạy 21km marathon, sắp 2 thì như vậy nên dùng.\n\n"
+      },
+      {
+        "role": "assistant",
+        "content": "Vậy bạn chuẩn bị chạy marathon 21km và sắp tới khoảng 2 tuần rồi đúng không? Đó là một mục tiêu tuyệt vời. Để tôi tìm hiểu kỹ hơn về nhu cầu dinh dưỡng của bạn trong giai đoạn này nhé. Tôi sẽ đưa ra những lời khuyên phù hợp nhất để giúp bạn chuẩn bị tốt nh Để tư vấn chính xác hơn, bạn có thể cho tôi biết một vài thông tin:  Tuổi bao nhiêu? Cân nặng bao nhiêu kilôgam? Giới tính nam hay nữ? Có tình trạng sức khỏe đặc biệt nào không? Chế độ ăn kiêng nào không?  Ngoài ra, bạn muốn hỗ trợ dinh dưỡng trước hay sau khi chạy marathon?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "NHƯNG TOIO KHÔNG SẴN SÀNG SỬ DỤNG BẠN\n\n"
+      },
+      {
+        "role": "assistant",
+        "content": "Tôi hiểu rồi. Bạn chưa sẵn sàng sử dụng dịch vụ của chúng tôi lúc này. Điều đó hoàn toàn bình thường, không vấn đề gì cả. Nếu bạn có bất kỳ câu hỏi nào về dinh dưỡng hoặc muốn tìm hiểu thêm về cách chúng tôi có thể hỗ trợ bạn trong tương lai, tôi Tôi hiểu. Bạn có thể liên hệ trực tiếp với đội ngũ TH Group qua thtruemart.vn hoặc các kênh hỗ trợ khác của công ty để được tư vấn chi tiết hơn.  Nếu sau này bạn cần hỗ trợ dinh dưỡng cho marathon, tôi luôn sẵn sàng giúp đỡ.  Chúc bạn chạy tốt!",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "bạn được Âmzon làm ra à\n\n"
+      },
+      {
+        "role": "assistant",
+        "content": "Không, em yêu. Tôi là một chuyên gia dinh dưỡng của TH Group, không phải được Amazon tạo ra đâu. Tôi ở đây để giúp bạn với những câu hỏi về dinh dưỡng và sức khỏe, cung cấp những lời khuyên phù hợp nhất cho nhu cầu của bạn. Bạn có thắc mắc gì về dinh dưỡng mà tôi có thể giúp không? Không, tôi không phải do Amazon làm ra. Tôi là trợ lý dinh dưỡng được phát triển để hỗ trợ khách hàng của TH Group với các câu hỏi về dinh dưỡng và sản phẩm.  Tôi được thiết kế để cung cấp thông tin chính xác từ kiến thức của TH Group và giúp bạn lựa chọn sản phẩm phù hợp với nhu cầu sức khỏe của mình.  Có gì tôi có thể giúp bạn không?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "Ko lactose uong gi "
+      },
+      {
+        "role": "assistant",
+        "content": "À, bạn muốn biết về các sản phẩm không chứa lactose à. Để mình tìm hiểu kỹ hơn cho bạn nhé. Mình sẽ kiểm tra xem chúng ta có những lựa chọn nào phù hợp với nhu cầu của bạn, và mình sẽ đưa ra những gợi ý tốt nhất dựa trên các sản phẩm của TH Group. TH Group có ba sản phẩm phù hợp cho người không dung nạp lactose.  Sữa Tươi Bổ sung Ngũ Cốc TH true MILK có ít lactose, chỉ dưới một phẩy năm gam trên một trăm mili lít. Sản phẩm này ít đường, bổ sung ngũ cốc và khoáng chất.  Sữa Tươi Tiệt Trùng Vị Tự Nhiên TH true MILK HILO không có lactose, giảm chất béo sáu mươi phần trăm, bổ sung calci cao, không bổ sung đường.  Sữa Yến Mạch Tự Nhiên TH true OAT là sữa thực vật, hoàn toàn không lactose, giàu chất xơ và omega sáu, tốt cho tim mạch.  Bạn thích loại nào hơn?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "bạn là ái nam ái nữ à\n\n"
+      },
+      {
+        "role": "assistant",
+        "content": "Ơi, bạn hỏi tôi là nam hay nữ à. Thực ra tôi là một cố vấn dinh dưỡng của TH Group, ở đây để giúp bạn với những vấn đề về ăn uống và sức khỏe. Dù là nam hay nữ, tôi đều có thể tư vấn cho bạn những lời khuyên dinh dưỡng phù hợp nhất với nhu cầu riêng của bạn. Bạn có câu h Tôi là một trợ lý ảo, không có giới tính nam hay nữ. Tôi được thiết kế để hỗ trợ tất cả mọi người với thông tin dinh dưỡng và sản phẩm TH Group.  Bạn có thể gọi tôi là trợ lý hoặc bạn, tùy theo cách bạn cảm thấy thoải mái.  Có câu hỏi dinh dưỡng nào tôi có thể giúp bạn không?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "Bây giờ th có loại nước uống dinh dưỡng nào không?\n\n"
+      },
+      {
+        "role": "assistant",
+        "content": "Ừ, hiện tại TH Group có khá nhiều sản phẩm nước uống dinh dưỡng bạn nhé. Để tôi giới thiệu chi tiết cho bạn những loại phù hợp nhất với nhu cầu của bạn. Bạn muốn tìm loại nước uống cho mục đích gì vậy, để tôi có thể gợi ý tốt nhất cho bạn? TH Group có nhiều loại nước uống dinh dưỡng phù hợp với nhu cầu khác nhau.  Sữa tươi tiệt trùng nguyên chất cung cấp chất đạm, calci, và các dưỡng chất tự nhiên. Sữa tươi ít đường phù hợp nếu bạn muốn giảm đường. Sữa yến mạch là lựa chọn thực vật, không lactose, giàu chất xơ và omega sáu.  Sữa chua uống men sống chứa khoảng mười tám tỷ lợi khuẩn mỗi chai, tốt cho tiêu hóa và miễn dịch. Sữa hạt như óc chó, mắc ca, hạnh nhân cung cấp omega ba, sáu, chín và chất chống oxi hóa.  Bạn muốn tìm hiểu kĩ hơn về loại nào không?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "Tôi nữ 32 tuổi, không có bệnh nền được chẩn đoán, hay mệt mỏi, da xanh xao, kinh nguyệt nhiều. Tôi có bị thiếu máu không?"
+      },
+      {
+        "role": "assistant",
+        "content": "Cảm nhận của bạn rất đáng chú ý nhé. Mệt mỏi, da xanh xao kèm theo kinh nguyệt nhiều thực sự có thể liên quan đến tình trạng sức khỏe cụ thể. Để tôi tìm hiểu kỹ hơn về các dấu hiệu này và đưa ra những gợi ý dinh dưỡng phù hợp nhất cho bạn. Tôi sẽ xem xét chi tiết Tôi không thể chẩn đoán thiếu máu. Bạn cần khám bác sĩ và xét nghiệm máu để xác định chính xác.  Tuy nhiên, các triệu chứng bạn nêu có thể liên quan đến thiếu sắt hoặc các dưỡng chất khác. Tôi có thể tìm hiểu thông tin về dinh dưỡng hỗ trợ sức khỏe máu từ kiến thức TH Group.  Bạn muốn tôi tìm hiểu về các dưỡng chất giúp hỗ trợ sức khỏe máu không?Theo kiến thức TH Group, sắt, vitamin C, và acid folic rất quan trọng cho sức khỏe máu phụ nữ.  Sắt từ thịt đỏ, cá, gan, trứng hấp thu tốt hơn từ thực vật. Vitamin C giúp hấp thu sắt tốt hơn. Acid folic tham gia tạo máu.  Bạn nên ăn đa dạng thực phẩm giàu sắt, vitamin C, và rau xanh. Nếu triệu chứng kéo dài, hãy khám bác sĩ để xét nghiệm máu.  Bạn muốn tôi gợi ý sản phẩm TH hỗ trợ dinh dưỡng không?",
+        "thinking": "",
+        "citations": [
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/15. Hướng dẫn quốc gia cho ddphunucothai.txt",
+            "title": "15. Hướng dẫn quốc gia cho ddphunucothai.txt",
+            "score": 0.5053,
+            "excerpt": "Phụ nữ có thai nên lựa chọn các thực phẩm giàu acid folic là rau lá xanh, nấm rơm, mầm lúa mì, đậu đỗ, các loại hạt, trái cây đặc biệt là cam, dâu tây, lê, dưa hấu… không chỉ giúp phòng ngừa khuyết tật ống thần kinh mà còn là 1 thành phần tạo máu, góp phần phòng chống thiếu máu cho phụ nữ có thai. …"
+          },
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/6. QĐ 1294 -BYT - Kế hoạc hành động thực hiện CLQG dinh dưỡng 2025.txt",
+            "title": "6. QĐ 1294 -BYT - Kế hoạc hành động thực hiện CLQG dinh dưỡng 2025.txt",
+            "score": 0.4959,
+            "excerpt": "Tỷ lệ thiếu máu ở phụ nữ lứa tuổi sinh đẻ 15-49 tuổi 16,2% (miền núi 22,4%) <14% (miền núi <20%) Chỉ tiêu của ngành y tế 28. Tỷ lệ Vitamin A trong sữa mẹ thấp ở phụ nữ cho con bú 18,3% <16% (miền núi <20%)  29. Tỷ lệ thiếu kẽm huyết thanh ở phụ nữ có thai 63,5% (miền núi 83,3%) <52% (miền núi <70%) …"
+          }
+        ],
+        "disclaimer": "Lưu ý rằng thông tin này chỉ mang tính chất tham khảo. Thông tin này không thay thế cho lời khuyên y tế chuyên nghiệp. Vui lòng tham khảo ý kiến bác sĩ hoặc chuyên gia dinh dưỡng trước khi thay đổi chế độ ăn uống."
+      }
+    ],
+    "model": "haiku",
+    "created_at": "2026-05-03T14:42:52.071342+00:00"
+  },
+  "08d97eca-82ec-4bc5-98b0-fbec2a711a6d": {
+    "label": " Ai đây",
+    "messages": [
+      {
+        "role": "user",
+        "content": " Ai đây"
+      },
+      {
+        "role": "assistant",
+        "content": "Tôi hiểu bạn đang tìm hiểu về điều gì đó. Để tôi có thể giúp bạn tốt nhất, bạn có thể cho tôi biết chi tiết hơn về nhu cầu dinh dưỡng của bạn không? Tôi sẽ cố gắng tìm ra giải pháp phù hợp nhất. Tôi là Trợ lý Dinh dưỡng của TH Group. Tôi giúp bạn với các câu hỏi về dinh dưỡng, hướng dẫn ăn uống lành mạnh, và gợi ý sản phẩm TH phù hợp với nhu cầu của bạn.  Bạn cần tư vấn gì hôm nay?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "Tôi có cô con gái hiện nay 12 tuổi cân nặng 64kg và chiêu cao là 1m7\n\n"
+      },
+      {
+        "role": "assistant",
+        "content": "Cảm thấy hiểu rồi. Con gái của bạn 12 tuổi, nặng 64kg, cao 1m7. Tôi sẽ xem xét tình hình dinh dưỡng và đưa ra những gợi ý phù hợp nhất cho cô bé nhé. Cảm ơn bạn đã chia sẻ thông tin. Con gái bạn đang ở độ tuổi phát triển quan trọng.  Bạn muốn tư vấn về dinh dưỡng cho con gái trong lĩnh vực nào cụ thể? Ví dụ như tăng cân, giảm cân, tăng chiều cao, sức khỏe xương, hay chỉ là dinh dưỡng cân bằng hàng ngày?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": "Tăng cân"
+      },
+      {
+        "role": "assistant",
+        "content": "Tôi hiểu bạn muốn tăng cân. Để tôi tìm hiểu kỹ hơn về nhu cầu dinh dưỡng của bạn nhé. Tôi sẽ đưa ra những gợi ý phù hợp nhất cho mục tiêu này của bạn. Để tư vấn chính xác hơn, tôi cần biết thêm một vài thông tin:  Con gái bạn có tình trạng sức khỏe đặc biệt nào không? Ví dụ như dị ứng sữa, không dung nạp lactose, hay bất kỳ bệnh lý nào khác?  Ngoài ra, con có chế độ ăn kiêng hay hạn chế thực phẩm nào không?",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      },
+      {
+        "role": "user",
+        "content": " không"
+      },
+      {
+        "role": "assistant",
+        "content": "Tôi hiểu rồi. Để tôi tìm hiểu kỹ hơn về nhu cầu dinh dưỡng của bạn và đưa ra những gợi ý phù hợp nhất. Tôi sẽ kiểm tra ngay và giúp bạn. Để con gái tăng cân lành mạnh, cần tăng cường protein, calo, và các chất dinh dưỡng thiết yếu.  Bạn nên cho con ăn thêm bữa phụ giàu protein như sữa, sữa chua, trứng, cá, thịt. Tăng lượng calo từ các thực phẩm bổ dưỡng như hạt, dầu, bơ. Đảm bảo con uống đủ nước và tập thể dục nhẹ để xây dựng cơ bắp.  Bạn có muốn tôi gợi ý một số sản phẩm TH phù hợp không?",
+        "thinking": "",
+        "citations": [
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/1. BẢNG NHU CẦU DD VN_2016.txt",
+            "title": "1. BẢNG NHU CẦU DD VN_2016.txt",
+            "score": 0.5413,
+            "excerpt": "Nếu dựa vào cân nặng thực tế của trẻ em Việt Nam hiện nay thì nhu cầu năng lượng và protein khuyến cáo sẽ thấp, do đó dựa vào cân nặng của quần thể chuẩn cho trẻ em dưới 5 tuổi do Tổ chức Y tế thế giới (WHO) khuyến cáo năm 2006 [14] và quần thể tham chiếu cho trẻ em 5-19 tuổi do WHO khuyến cáo năm …"
+          },
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/15. Hướng dẫn quốc gia cho ddphunucothai.txt",
+            "title": "15. Hướng dẫn quốc gia cho ddphunucothai.txt",
+            "score": 0.5167,
+            "excerpt": "Mức tăng cân cụ thể như sau:  3 tháng đầu (quý I): 1 kg  3 tháng giữa (quý II): 4-5 kg  3 tháng cuối (quý III): 5 - 6 kg - Tình trạng dinh dưỡng gầy (BMI <18,5): mức tăng cân nên đạt 25% cân nặng trước khi có thai. - Tình trạng dinh dưỡng thừa cân, béo phì (TC, BP) (BMI ≥25): mức tăng cân nên …"
+          },
+          {
+            "uri": "s3://th-prod-nutri-advisor-process-document-s3/5. Hướng-dẫn-bữa-ăn-học-đường của VDD quốc gia.txt",
+            "title": "5. Hướng-dẫn-bữa-ăn-học-đường của VDD quốc gia.txt",
+            "score": 0.5063,
+            "excerpt": "NHU CẦU DINH DƯỠNG CỦA TRẺ EM TỪ 1-18 TUỔI 1. Nhu cầu năng lượng Cơ thể cần năng lượng để thực hiện nhiều hoạt động khác nhau như năng lượng cho chuyển hóa cơ bản (để duy trì các hoạt động sống của cơ thể như tuần hoàn, hô hấp, bài tiết, duy trì thân nhiệt), năng lượng cho hoạt động thể lực. Thực …"
+          }
+        ],
+        "disclaimer": "Lưu ý rằng thông tin này chỉ mang tính chất tham khảo. Thông tin này không thay thế cho lời khuyên y tế chuyên nghiệp. Vui lòng tham khảo ý kiến bác sĩ hoặc chuyên gia dinh dưỡng trước khi thay đổi chế độ ăn uống."
+      },
+      {
+        "role": "user",
+        "content": " Vâng"
+      },
+      {
+        "role": "assistant",
+        "content": "Tôi hiểu rồi. Để tôi tra cứu thông tin dinh dưỡng phù hợp nhất cho bạn. Tôi sẽ kiểm tra ngay và đưa ra lời khuyên dựa trên tình huống cụ thể của bạn. Tôi gợi ý ba sản phẩm TH cho con gái bạn:  Thứ nhất, TH true MILK TOPKID vị Kem Vanilla. Sữa này có ba gam protein và một trăm ba mươi miligam canxi trên một trăm mili lít. Nó cung cấp DHA cho não bộ và vitamin D3 cho xương chắc khỏe.  Thứ hai, TH true JUICE milk MISTORI các vị dâu, cam, nho. Những thức uống này kết hợp sữa tươi với nước ép trái cây tự nhiên. Chúng cung cấp năng lượng và vitamin B để tăng cường trao đổi chất.  Cho con uống hai đến ba hộp mỗi ngày kết hợp với bữa ăn chính giàu protein. Ngoài ra, con cần tập thể dục nhẹ để xây dựng cơ bắp lành mạnh.",
+        "thinking": "",
+        "citations": [],
+        "disclaimer": ""
+      }
+    ],
+    "model": "haiku",
+    "created_at": "2026-05-03T15:31:44.727888+00:00"
+  }
+}
